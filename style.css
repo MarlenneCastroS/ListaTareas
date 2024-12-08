@@ -1,8 +1,8 @@
 :root{
-    --color-primario:#9AA3D9;
+    --color-primario: #EAC285;
     --color-input:#B57114;
-    --color-secundario:#08403E;
-    --bg:#D9A3A3;
+    --color-secundario:#520120;
+    --bg: #014040;
     --text-size:1.5rem;
     --color-fuente:#520120;
 }
@@ -75,10 +75,16 @@ body{
     align-items: center;
     justify-content: center;
 }
+#lista i{
+    padding-right: 10px;
+}
 #lista i:hover{
     color: var(--color-primario);
 }
 .tachado{
     text-decoration: line-through;
     color: var(--color-primario);
+}
+.bi-trash{
+    padding-left: 10px;
 }
